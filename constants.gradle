@@ -1,0 +1,111 @@
+ext {
+
+    //SDK Details
+    minSdkVersion = 28
+    targetSdkVersion = 34
+    compileSdkVersion = 34
+
+    //Version Details
+    devVersionCode = 318
+    devVersionName = "2.5.3"
+    prodVersionCode = 262
+    prodVersionName = "2.5.3"
+
+    //Kotlin
+    jvmTarget18 = "1.8"
+    jvmTarget11 = "11"
+    jdk7Version = "1.7.10"
+
+    //Gradle
+    kotlinGradleVersion = "1.9.0"
+    buildGradleVersion = "8.1.1"
+    buildToolVersion = "33.0.1"
+
+    //Compose
+    //TODO: Check and implement stable version
+    composeNavigationVersion = "2.4.0"
+    composeBomVersion = "2023.01.00"
+    composeKotlinExtensionVersion = "1.4.0"
+
+    //AndroidX
+    coreKtxVersion = "1.9.0"
+    appCompatVersion = "1.4.1"
+    constraintLayoutVersion = "2.1.3"
+    browserVersion = "1.0.0"
+
+    //Material Design
+    materialDesignVersion = "1.4.0"
+
+    //Retrofit
+    retrofitVersion = "2.6.4"
+    okHttp3LoggingInterceptorVersion = "4.9.0"
+    okHttp3Version = "4.11.0"
+    gsonLinkedinVersion = "2.8.9"
+    gsonVersion = "2.10.0"
+
+    //Unit Testing
+    junitVersion = "4.13"
+    runnerVersion = "1.4.0"
+    expressoVersion = "3.4.0"
+    junitExtVersion = "1.1.3"
+
+    //Google Play Services
+    googleServicesVersion = "4.3.13"
+    //TODO: Replace After testing
+    locationPlayServiceVersion = "18.0.0"
+    locationPlayServicesForceVersion = "21.0.1"
+    nearbyVersion = "18.5.0"
+    authVersion = "20.5.0"
+    adsVersion = "22.1.0"
+    adsIdentifierVersion = "17.1.0+"
+
+    //Firebase
+    firebaseCrashlyticsVersion = "2.8.1"
+    firebasePerfVersion = "1.4.1"
+    firebaseBomVersion = "31.2.3"
+
+    //Google In App Payment
+    billingVersion = "7.0.0"
+
+    //ImagePicker
+    dhaval2404ImagePickerVersion = "2.1"
+    zeloryImagePickerVersion = "3.0.1"
+    zxingImagePickerVersion = "3.5.0"
+
+    //Country Code Picker
+    hbb20CountryCodePickerVersion = "2.7.0"
+    libphonenumberCountryCodePickerVersion = "8.13.10"
+
+    //Glide
+    glideVersion = "4.15.0"
+
+    //In-App Update
+    googleCoreVersion = "2.1.0"
+
+    //Coroutines
+    coroutinesVersion = "1.6.0"
+    coroutinesBLEVersion = "1.5.2"
+
+    //Architecture
+    lifecycleVersion = "2.4.1"
+
+    //Work Manager
+    workManagerVersion = "2.7.1"
+
+    //RX
+    rxJavaVersion = "2.2.0"
+    rxAndroidVersion = "2.1.0"
+
+    //Branch.io Deeplink
+    branchIOVersion = "5.+"
+
+    //UI Libraries
+    droidsonroidsVersion = "1.2.25"
+    addisonelliottVersion = "3.1.9"
+    tbuonomoVersion = "4.2"
+    mindorksOpenSourceUIVersion = "2.0"
+    flexVersion = "3.0.0"
+
+    //Chart
+    mpAndroidChart = "v3.1.0"
+}
